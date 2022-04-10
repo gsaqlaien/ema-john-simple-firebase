@@ -23,10 +23,7 @@ const SignUp = () => {
         setPassword(event.target.value);
     }
 
-    if (user) {
-        navigate('/shop')
 
-    }
 
     const handleConfirmPasswordBlur = event => {
         setConfirmPassword(event.target.value);
